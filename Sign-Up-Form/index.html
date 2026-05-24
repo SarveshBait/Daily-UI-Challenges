@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+<!-- Challenge 01: Sign Up
+    
+    Create a sign up page, modal, form, or app screen related to signing up for something. It could be for a volunteer event, contest registration,
+    a giveaway, or anything you can image. -->
+
+    <header>
+        <h1>Spring Community Clean Up Day!!!</h1>    
+        <p>Volunteer and help us make the neighbourhood shine</p>
+
+        <button class="open-modal-btn">Sign Up to Volunteer</button>
+    </header>
+
+    <div class="modal" id="signupModal">
+    <div class="modal-content">
+        <h2>Join US and make a difference!</h2>
+        
+        <form id="signupForm">
+
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone No (optional)</label>
+            <input type="tel">
+        </div>
+
+        <div class="form-group">
+            <label for="role">Preferred Volunteer Role</label>
+            <select name="" id="">
+                <option value="">Select a Role</option>
+                <option value="Trash Collection">Trash Collection</option>
+                <option value="First Aid">First Aid</option>
+                <option value="Water Station">Water Station</option>
+                <option value="Logistics">Logistics</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="availablility">Avalilbility</label>
+            <input type="datetime-local">
+        </div>
+
+        <div class="form-group">
+            <label for="tshirt">Tshirt Size</label>
+            <select name="" id="">
+                <option value="">Select Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>
+                <input type="checkbox" required>I agree to the terms and conditions
+            </label>
+        </div>
+
+        <div class="form-actions">
+                <button class="submit-btn">Sign Up Now</button>
+                <button class="cancel-btn" id="cancelBtn">Cancel</button>
+        </div>
+
+        </form>
+
+        <div class="confirmation-msg" id="confirmationMessage">
+            <i class="fa-regular fa-envelope"></i>
+            <h3>Thank you for signing up!</h3>
+            <p>We'll send you event details soon. Let's make an impact together!</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
