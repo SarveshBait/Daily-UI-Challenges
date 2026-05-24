@@ -31,7 +31,7 @@ The goal of this challenge is to:
 
 | Day | Project      | Live Demo                                                                       |
 | --- | ------------ | ------------------------------------------------------------------------------- |
-| 01  | Sign Up Form | [View Project](https://sarveshbait.github.io/Daily-UI-Challenges/sign-up-form/) |
+| 01  | Sign Up Form | [View Project](https://sarveshbait.github.io/Daily-UI-Challenges/Sign-Up-Form/) |
 
 ---
 
