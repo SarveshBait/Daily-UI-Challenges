@@ -32,6 +32,7 @@ The goal of this challenge is to:
 | Day | Project      | Live Demo                                                                       |
 | --- | ------------ | ------------------------------------------------------------------------------- |
 | 01  | Sign Up Form | [View Project](https://sarveshbait.github.io/Daily-UI-Challenges/Sign-Up-Form/) |
+| 02  | Credit Card Checkout | [View Project] (https://sarveshbait.github.io/Daily-UI-Challenges/Credit-Card-Checkout/) |
 
 ---
 
