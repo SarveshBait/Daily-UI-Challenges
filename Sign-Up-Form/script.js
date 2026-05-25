@@ -4,7 +4,7 @@
     const form = document.getElementById('signupForm');
     const confirmation = document.getElementById('confirmationMessage');
 
-    openModalBtn.addEventListener('click', () => {              /* Event Listener  addEventListener, click event  */
+    openModalBtn.addEventListener('click', () => {              
         modal.style.display = 'flex';
     });
 
@@ -13,12 +13,12 @@
     });
 
     form.addEventListener('submit', function (e) {
-        e.preventDefault();                                 /* preventDefault*/
+        e.preventDefault();                                 
         form.style.display = 'none';
         confirmation.style.display = 'block';
     });
 
-    window.addEventListener('click', function (e) {     /* window apply add event listener*/
+    window.addEventListener('click', function (e) {     
         if (e.target === modal) {
             modal.style.display = 'none';
             form.style.display = 'block';
