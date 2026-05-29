@@ -44,6 +44,7 @@ Modern calculator interface with futuristic orange and blue glow aesthetics.
 
 ## 🔗 Live Demo
 
+https://sarveshbait.github.io/Daily-UI-Challenges/Calculator/
 
 
 ## 📌 Author
