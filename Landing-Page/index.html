@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Challenge: Landing Page
+    
+        What's the main focus? Is it for a book, an album, a mobile app, a SaaS product? Consider important 
+        landing page elements (Headlines, call-to-action buttons, typography, clarity, etc.) -->
+    
+    <header>
+        <nav>
+            <h1>NexoraTech</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to NaxoraTech</h2>
+            <p>Simple and clean design with smooth scroll</p>
+            <button onclick="scrollToContact()">Get In Touch</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-us">
+            <div class="about-content">
+                <h2>Work Smarter, Grow Faster</h2>
+                <p>At NexoraTech, we believe productivity should be simple. Our platform combines project management, communication, analytics, and workflow automation into one seamless experience designed for modern teams.</p>
+            </div>
+            <div class="about-img">
+                <img src="../Landing-Page/Images/Img3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact US</h2>
+        <form action="">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" id="" required>
+                <textarea name="" id="" placeholder="Your Message"></textarea>
+        </form>
+    </section>
+
+    <footer class="footer">
+        &#169; 2026 NaxoraTech. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
